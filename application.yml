@@ -1,1 +1,7 @@
 
+microservice:
+  catalog-service:
+    endpoints:
+      endpoint:
+        rating-uri: http://ratings-data-service/ratingsdata/user/
+        movie-uri: http://movie-info-service/movies/
